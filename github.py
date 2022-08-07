@@ -38,7 +38,6 @@ def getDesktopimg():
     im = ImageGrab.grab()
     im.save("sample.png")# write here directory to save png file
 def delayrun():
-    print("test  test")
     t = Timer(timer_interval,delayrun())
     t.start()
 
